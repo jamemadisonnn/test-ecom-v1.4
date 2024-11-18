@@ -1,0 +1,41 @@
+/* ==============================
+MasterReset v1.0 | 14.07.23
+License: none (public domain)
+Developed By : Jame's Madison
+============================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: normal;
+  min-height: 100vh;
+}
+
+img, picture, video, svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+  div.desktop {display: none;}
+}
+@media screen and (min-width: 990px) {
+  div.mobile {display: none;}
+}
